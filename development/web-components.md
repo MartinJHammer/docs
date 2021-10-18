@@ -1,0 +1,11 @@
+# Web Components
+- Intro: https://www.webcomponents.org/introduction
+- Maybe not use?: https://www.rainerhahnekamp.com/en/why-you-dont-need-web-components/
+- Why we should use (future proofing): https://www.netguru.com/blog/web-components-when-where-and-why-to-use-them
+- Stencil vs Lit: https://whoisryosuke.com/blog/2020/creating-a-design-system-using-web-components/
+- Lit over Polymer according to: https://43081j.com/2018/08/future-of-polymer
+- First test case for Stackblitz: Img badge
+- Input: img, text
+- Enabled/Disabled
+- Optimizes img
+- responsive

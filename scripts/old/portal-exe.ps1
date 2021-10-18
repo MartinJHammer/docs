@@ -1,0 +1,1 @@
+powerShell -noexit -file './portal.ps1';
