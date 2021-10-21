@@ -1,0 +1,30 @@
+# Lessons from Programming
+
+## Don't do unqiue stuff for individual clients
+If you are changing softare just to please one client, you're likely making your software lower in quality + making it harder to maintain.
+
+**DO INSTEAD** \
+Let ALL clients suggest improvements, and add stuff that works for ALL clients. 
+
+If you want to please one client, make it into a generic solution that pleases ALL clients.
+
+## Have a default page ALL users see when logging in.
+This makes most redirect behavior much more managable and predictable.
+
+Users will all see the same default page, but with varying content depending on roles, privileges, etc.
+
+**DON'T** \
+Make some users redirect to one page, and some users to other pages. As complexity grows and changes are added, who goes where becomes unpredictable.
+
+## Make tests!
+Tests make development 3 times slower (due to extra time writing and maintaining them).
+
+BUT!
+- It makes refactoring 1000x faster and safer.
+- Prevents regression when developing.
+- Ensures desired behavior stays as is.
+- Helps communicate success criteria and ensure they are met.
+- Makes debugging MUCH faster.
+- Let's you catch bugs before the customer does. Helps sustain customer trust.
+
+All tests are valid, but Frontend should focus on E2E tests especially, since they cover most ground and see things from the users perspective.
