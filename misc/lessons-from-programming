@@ -19,7 +19,7 @@ Make some users redirect to one page, and some users to other pages. As complexi
 ## Make tests!
 Tests make development 3 times slower (due to extra time writing and maintaining them).
 
-BUT!
+BUT! \
 - It makes refactoring 1000x faster and safer.
 - Prevents regression when developing.
 - Ensures desired behavior stays as is.
@@ -28,3 +28,15 @@ BUT!
 - Let's you catch bugs before the customer does. Helps sustain customer trust.
 
 All tests are valid, but Frontend should focus on E2E tests especially, since they cover most ground and see things from the users perspective.
+
+## Do the right thing first
+**DO** \
+Bad software -> Improve software -> New feature
+
+**DON'T** \
+Bad software -> Hack to prep new feature -> New feature -> Improve software -> Remove hack (no longer needed)
+
+Also no here that sometimes the "improve" step never happens, and thus the "remove hack" step also doesn't happen. This result in: \
+- New features build on bad, hacky software.
+- New features now depend on hack that depends on hack that depends on hack, etc.
+- Development and refactoring becomes harder and more expensive.
