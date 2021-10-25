@@ -54,11 +54,12 @@ git config --get remote.origin.url
 git rm --cached -r -A
 git rm --cached foo.txt
 
-*Semi-automatic squash commits - Request git push --force to update remote*
+*Semi-automatic squash commits - Request git push --force-with-lease to update remote*
 git checkout <feature-branch>
 git reset $(git merge-base master $(git branch --show-current))
 git add -A
 git commit -m ""
+git push --force-with-lease
 
 *Remove untracked file*
 git clean -f
