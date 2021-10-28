@@ -41,7 +41,7 @@ Also no here that sometimes the "improve" step never happens, and thus the "remo
 - New features now depend on hack that depends on hack that depends on hack, etc.
 - Development and refactoring becomes harder and more expensive.
 
-## Fix problems (use cases)
+## Start with what and why, then move to how
 Programs help humans by making things easier. Programs can automate things, and can encapsulate a "thought", "idea", or concept. This makes it easier for a user   
 
 **DO** \
