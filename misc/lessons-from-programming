@@ -42,7 +42,7 @@ Also no here that sometimes the "improve" step never happens, and thus the "remo
 - Development and refactoring becomes harder and more expensive.
 
 ## Start with what and why, then move to how
-Programs help humans by making things easier. Programs can automate things, and can encapsulate a "thought", "idea", or concept. This makes it easier for a user   
+Programs help humans by making things easier. Programs can automate things, and can encapsulate a "thought", "idea", or concept. This makes it easier for a user to do, understand, and enjoy things. 
 
 **DO** \
 Start with defining wants (problems->solutions), thoughts, ideas, and concepts.
