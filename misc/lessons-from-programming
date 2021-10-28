@@ -40,3 +40,17 @@ Also no here that sometimes the "improve" step never happens, and thus the "remo
 - New features build on bad, hacky software.
 - New features now depend on hack that depends on hack that depends on hack, etc.
 - Development and refactoring becomes harder and more expensive.
+
+## Fix problems (use cases)
+Programs help humans by making things easier. Programs can automate things, and can encapsulate a "thought", "idea", or concept. This makes it easier for a user   
+
+**DO** \
+Start with defining wants (problems->solutions), thoughts, ideas, and concepts.
+THEN create proof-of-concepts, prototypes, minimum viable products, design mock ups, etc.
+THEN code it.
+
+**DON'T** \
+Create a design yoy THINK solves something, then create tasks based on that.
+
+**EXCEPTION** \
+Sometimes you don't know what you want, or what possible options there could be. Here you should try to experiment and be creative. Try stuff, iterate, to figure out what works.
