@@ -93,6 +93,9 @@ git reset (--mixed) *// Undo last commit and put those changes in the working di
 git reset --hard *// Undo all changes to working and staged tree. Pass in HEAD~ to undo last commit.* \
 git reset HEAD@{3} *// Reset to specific ref. Use `git reflog` to see possabilities. *
 
+**Remove specific commit from branch**
+git rebase -p --onto SHA^ SHA
+
 ## git amend
 git --amend -m "" *// Rename previous commit* \
 git --amend -a --no-edit *// Add changes to previous commit*
